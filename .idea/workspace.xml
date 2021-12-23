@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb3812c-f921-4234-9460-85caaae4b998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ADDRESS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ContributeForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RequestRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ethereum/campaign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ethereum/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ethereum/web3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/campaigns/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/campaigns/requests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/campaigns/requests/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/campaigns/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ethereum/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/Campaign.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/Campaign.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Campaign.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/Campaign.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +35,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22ayEoCi3P3OmIKWgsNQezsRJrN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lottery" />
@@ -31,6 +50,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2(2)\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,7 +70,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -62,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -77,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640089883240</updated>
       <workItem from="1640089884449" duration="4994000" />
-      <workItem from="1640102418140" duration="3923000" />
+      <workItem from="1640102418140" duration="10189000" />
+      <workItem from="1640162000776" duration="31191000" />
     </task>
     <servers />
   </component>
